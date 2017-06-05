@@ -1,0 +1,25 @@
+Error: Whoops
+    at Timeout._onTimeout (D:\projects\nodejs-training\module-7\console.js:10:18)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+Error: Whoops
+    at Timeout._onTimeout (D:\projects\nodejs-training\module-7\console.js:10:18)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+Error: Whoops
+    at Timeout._onTimeout (D:\projects\nodejs-training\module-7\console.js:10:18)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+Error: Whoops
+    at Timeout._onTimeout (D:\projects\nodejs-training\module-7\console.js:10:18)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+Error: Whoops
+    at Timeout._onTimeout (D:\projects\nodejs-training\module-7\console.js:10:18)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
