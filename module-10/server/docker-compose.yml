@@ -1,0 +1,39 @@
+version: '2'
+
+services:
+  web:
+    command: npm run dev
+    build: .
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "8080:8080"
+    links:
+      - mongo
+    environment:
+      - MONGO_DB_URI=mongodb://mongo:27017/shukhratbek-api
+
+  client:
+    container_name: client
+    build: ../shukhratbek-admin/
+    volumes:
+      - ../shukhratbek-admin/:/usr/src/app
+    ports:
+      - "3000:3000"
+    links:
+      - web
+    environment:
+      - DEBUG="app:*"
+    command: npm start
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes_from:
+      - mongodata
+
+  mongodata:
+    image: tianon/true
+    volumes:
+      - /data/db
